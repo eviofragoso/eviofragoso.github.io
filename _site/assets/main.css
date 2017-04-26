@@ -282,6 +282,20 @@ pre {
   .pagination .next {
     float: right; }
 
+.share-page {
+  text-align: center;
+  background: #fff;
+  color: #111;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 45px 0; }
+  .share-page a {
+    font-weight: 700;
+    color: #111;
+    margin-left: 10px; }
+    .share-page a:hover {
+      border-bottom: 1px dashed #fff; }
+
 /**
  * Syntax highlighting styles
  */
