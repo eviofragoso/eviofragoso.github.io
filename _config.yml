@@ -69,3 +69,12 @@ jekyll-archives:
   layout: category_archives
   permalinks:
     category: /categories/:name/
+
+#Defaults
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      comments: true 
