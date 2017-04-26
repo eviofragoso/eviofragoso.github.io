@@ -19,8 +19,8 @@ comments: true
     {{ content }}
   </div>
 
-  {% include share.html %}
-  {% if page.comments %} • <a href="https://eviofragoso.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
+  <!--  {% include share.html %}-->
+{% if page.comments %} • <a href="https://eviofragoso.github.io{{ page.url }}#disqus_thread">0 Comments</a>{% endif %}
 
 
 {% include disqus.html %}
